@@ -1,0 +1,20 @@
+body{font-family: 'Times New Roman', Times, serif;}
+body{background-image: url(town.jpg);}
+body{color: aliceblue;}
+body {
+  color: white; /* 文字色 */
+  text-shadow: 
+   1px 1px 0 rgba(67, 60, 129, 0.4),
+ -1px 1px 0 rgba(67, 60, 129, 0.4),
+  1px -1px 0 rgba(67, 60, 129, 0.4),
+ -1px -1px 0 rgba(67, 60, 129, 0.4);
+
+}
+body {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(town.jpg);
+
+  background-size: cover;
+  background-position: center;
+}
